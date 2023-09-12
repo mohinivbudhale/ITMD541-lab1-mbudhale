@@ -10,9 +10,6 @@ h2 {
     color:blueviolet;
 }
 
-#container .ptext {
-    color: aquamarine;
-}
 body {
     background-image: url('background.jpg'); 
     background-repeat: no-repeat;
@@ -22,9 +19,4 @@ body {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color:darkcyan;
-}
-
-#container {
-    border: 2px solid green;
-    padding: 40px;
 }
