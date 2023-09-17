@@ -1,5 +1,5 @@
 :root {
-    --text-color: white;
+    --text-color: #FADDFD;
 }
 
 p {
@@ -11,6 +11,7 @@ p {
 h2 {
     color: white;
     font-size: 24px;
+    padding: 20px;
 }
 
 body {
@@ -33,21 +34,20 @@ h1 {
 
 .stylish-heading {
     font-size: 36px;
-    font-family: "Arial Black", sans-serif;
-    animation: moveText 2s linear infinite alternate;
-    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    animation: rotate360 5s linear infinite;
 }
 
-@keyframes moveText {
+@keyframes rotate360 {
     0% {
-        transform: translateX(0);
+        transform: rotate(0deg); 
     }
     100% {
-        transform: translateX(10px);
+        transform: rotate(360deg); 
     }
 }
 
 section {
     padding: 20px;
-    margin-top: -20px
+    margin-top: -80px
 }
