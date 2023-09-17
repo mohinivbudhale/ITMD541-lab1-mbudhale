@@ -5,6 +5,7 @@
 p {
     color: var(--text-color);
     font-size: 16px;
+    margin-top: -20px;
 }
 
 h2 {
@@ -48,4 +49,5 @@ h1 {
 
 section {
     padding: 20px;
+    margin-top: -20px
 }
