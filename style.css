@@ -35,15 +35,15 @@ h1 {
 .stylish-heading {
     font-size: 36px;
     font-family: "Roboto", sans-serif;
-    animation: rotate360 5s linear infinite;
+    animation: moveText 2s linear infinite alternate;
 }
 
-@keyframes rotate360 {
+@keyframes moveText {
     0% {
-        transform: rotate(0deg); 
+        transform: translateX(0);
     }
     100% {
-        transform: rotate(360deg); 
+        transform: translateX(10px);
     }
 }
 
