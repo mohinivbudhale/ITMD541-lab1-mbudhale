@@ -1,5 +1,5 @@
 :root {
-    --text-color: red;
+    --text-color: white;
 }
 
 p {
@@ -8,7 +8,7 @@ p {
 }
 
 h2 {
-    color:blueviolet;
+    color:white;
     font-size: 24px;
 }
 
