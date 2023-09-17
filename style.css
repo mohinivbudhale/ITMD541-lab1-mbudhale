@@ -22,7 +22,7 @@ body {
 
 header {
     color: white;
-    padding: 20px;
+    padding: 40px;
 }
 
 h1 {
@@ -34,6 +34,7 @@ h1 {
     font-size: 36px;
     font-family: "Arial Black", sans-serif;
     animation: moveText 2s linear infinite alternate;
+    display: inline-block;
 }
 
 @keyframes moveText {
