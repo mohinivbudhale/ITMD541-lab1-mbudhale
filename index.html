@@ -20,14 +20,20 @@
                 I possess foundational skills in web development, including HTML, CSS, and some JavaScript. My professional background primarily involved backend work
                 using Java and C#. I'm eager to expand my knowledge in web development and aspire to build a
                 career as a full-stack developer in the IT industry.
-            </p>            
-        </center>
-        <div style="text-align: right; padding: 20px;">
-            <h2>Lab 1 Feedback</h2>
-            <input type="text" id="userInput" style="width: 200px; font-size: 16px;" placeholder="Enter your feedback">
-            <button onclick="displayFeedback()" style="font-size: 16px;">Submit</button>
-            <p id="displayArea" style="margin-top: 10px;"></p>
-        </div>
+            </p>   
+            <div style="text-align: right; padding: 20px;">
+                <h2>Lab 1 Feedback</h2>
+                <input type="text" id="userInput" style="width: 200px; font-size: 16px;" placeholder="Enter your feedback">
+                <button onclick="displayFeedback()" style="font-size: 16px;">Submit</button>
+                <p id="displayArea" style="margin-top: 10px;"></p>
+            </div>
+        </center>        
     </section>
+    <script>
+        function displayFeedback() {
+            var userInput = document.getElementById("userInput").value;
+            document.getElementById("displayArea").textContent = "Feedback: " + userInput;
+        }
+    </script>
 </body>
 </html>
