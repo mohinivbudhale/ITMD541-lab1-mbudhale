@@ -1,20 +1,22 @@
 :root {
-    --text-color: #FADDFD;
+    --text-color: #FFFFFF;
 }
 
 p {
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 16px;
     margin-top: -20px;
     margin-left: 130px;
     margin-right: 130px;
     font-weight: bold;
+    font-style: italic;
+    text-align: justify;
 }
 
 h2 {
-    color: white;
+    color: pink;
     font-size: 24px;
-    padding: 20px;
+    padding: 30px;
     margin: 2px;
 }
 
