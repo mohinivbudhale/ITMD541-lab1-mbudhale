@@ -4,7 +4,7 @@
 
 p {
     color: var(--text-color);
-    font-size: 16px;
+    font-size: 20px;
     margin-top: -20px;
     margin-left: 130px;
     margin-right: 130px;
@@ -31,12 +31,12 @@ header {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 28px;
     text-transform: uppercase;
 }
 
 .stylish-heading {
-    font-size: 36px;
+    font-size: 30px;
     font-family: "Roboto", sans-serif;
     animation: moveText 2s linear infinite alternate;
 }
